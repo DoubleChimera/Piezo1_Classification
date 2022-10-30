@@ -27,7 +27,7 @@ def predict_SPT_class(train_data_path, pred_data_path):
                                should be a .csv file with features columns, an 'Experiment' column identifying the unique experiment ('tdTomato_37Degree'),
                                a 'TrackID' column with unique numerical IDs for each track, and an 'Elected_Label' column derived from human voting.
         pred_data_path (str): complete path to features that need predictions in .csv format, ex. 'C:/data/newconditions/gsmtx4_feature_data.csv'
-                               should be a .csv file with features columns, an 'Experiment' column identifying the unique experiment ('Cytochalasin_D'),
+                               should be a .csv file with features columns, an 'Experiment' column identifying the unique experiment ('GsMTx4'),
                                and a 'TrackID' column with unique numerical IDs for each track.
     
     Output:
